@@ -1,0 +1,17 @@
+{
+    "name": "barq-dev/gqrcode",
+    "description": "QR Code Generator by Google API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Barqunion",
+            "email": "admin@barqun.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Barqdev\\Gqrcode\\": "src/"
+        }
+    }
+}
