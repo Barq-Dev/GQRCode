@@ -9,5 +9,6 @@ composer require barq-dev/gqrcode
 ### Usage
 ```php
 $qr = new QRCode();
-$qr->text($qrtext)->qrCode(350, "storage/QR-Image.png");
+$text = "https://barqun.com";
+$qr->text($text)->qrCode(350, "storage/QR-Image.png");
 ```
